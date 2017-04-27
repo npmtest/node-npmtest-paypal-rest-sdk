@@ -1,6 +1,6 @@
 # npmtest-paypal-rest-sdk
 
-#### test coverage for  [paypal-rest-sdk (v1.7.1)](https://github.com/paypal/PayPal-node-SDK)  [![npm package](https://img.shields.io/npm/v/npmtest-paypal-rest-sdk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-paypal-rest-sdk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-paypal-rest-sdk.svg)](https://travis-ci.org/npmtest/node-npmtest-paypal-rest-sdk)
+#### basic test coverage for  [paypal-rest-sdk (v1.7.1)](https://github.com/paypal/PayPal-node-SDK)  [![npm package](https://img.shields.io/npm/v/npmtest-paypal-rest-sdk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-paypal-rest-sdk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-paypal-rest-sdk.svg)](https://travis-ci.org/npmtest/node-npmtest-paypal-rest-sdk)
 
 #### SDK for PayPal REST APIs
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-paypal-rest-sdk/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-paypal-rest-sdk/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-paypal-rest-sdk/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-paypal-rest-sdk/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-paypal-rest-sdk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-paypal-rest-sdk/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-paypal-rest-sdk/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-paypal-rest-sdk/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-paypal-rest-sdk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-paypal-rest-sdk/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-paypal-rest-sdk/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-paypal-rest-sdk/build/coverage.html/index.html)
 
@@ -103,7 +103,8 @@
     "scripts": {
         "test": "grunt"
     },
-    "version": "1.7.1"
+    "version": "1.7.1",
+    "bin": {}
 }
 ```
 
